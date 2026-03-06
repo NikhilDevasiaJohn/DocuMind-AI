@@ -3,7 +3,7 @@ import os
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from embeddings.embedding_model import get_embedding_model
 
 
